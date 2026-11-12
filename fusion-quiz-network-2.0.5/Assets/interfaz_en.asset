@@ -22,6 +22,30 @@ MonoBehaviour:
     m_Localized: Player Name
     m_Metadata:
       m_Items: []
+  - m_Id: 45998669905920
+    m_Localized: Room Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46255021572096
+    m_Localized: Create Room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46334218420224
+    m_Localized: Join Room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46503487946752
+    m_Localized: Enter Player Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46653161684992
+    m_Localized: 'Enter Room Name '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48846115782656
+    m_Localized: Start Game
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

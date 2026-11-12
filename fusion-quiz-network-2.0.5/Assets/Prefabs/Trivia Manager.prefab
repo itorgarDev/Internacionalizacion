@@ -3220,6 +3220,7 @@ GameObject:
   - component: {fileID: 753383983163859077}
   - component: {fileID: 4836408925152458624}
   - component: {fileID: 3031715142599010899}
+  - component: {fileID: -895431622542905952}
   m_Layer: 5
   m_Name: Trivia Manager
   m_TagString: Untagged
@@ -3329,6 +3330,7 @@ MonoBehaviour:
   NestedObjects: []
   NetworkedBehaviours:
   - {fileID: 3031715142599010899}
+  ForceRemoteRenderTimeframe: 0
 --- !u!114 &3031715142599010899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3342,6 +3344,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   triviaQuestions: {fileID: 11400000, guid: 50f878e112f5c9f469180cf9ef3d1203, type: 2}
+  localizedTriviaQuestions:
+    m_TableReference:
+      m_TableCollectionName: GUID:534c64533ddb75a4796e39d2e42b9539
+    m_TableEntryReference:
+      m_KeyId: 9636495360
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
   questionElements: {fileID: 2163382051303340792}
   _timerLength: 0
   _CurrentQuestion: -1
@@ -3394,15 +3404,38 @@ MonoBehaviour:
   triviaMessage: {fileID: 4959293727295991436}
   leaveGameBtn: {fileID: 5332107569488713869}
   startNewGameBtn: {fileID: 3960702955556892101}
+  endGameObject: {fileID: 7394377764092716540}
   maxQuestions: 10
   questionLength: 30
   pointsPerQuestions: 100
   timeBonus: 100
-  endGameObject: {fileID: 7394377764092716540}
   _correctSFX: {fileID: 4629924643596249416}
   _incorrectSFX: {fileID: 709286595968614297}
   _confirmSFX: {fileID: 2293601537117185713}
   _errorSFX: {fileID: 5937222510045035462}
+--- !u!114 &-895431622542905952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5295363465376580308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b3cd5170c86484a90a082230ff4b59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:534c64533ddb75a4796e39d2e42b9539
+    m_TableEntryReference:
+      m_KeyId: 9636495360
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5328233158826542743
 GameObject:
   m_ObjectHideFlags: 0

@@ -22,6 +22,30 @@ MonoBehaviour:
     m_Localized: Nombre del Jugador
     m_Metadata:
       m_Items: []
+  - m_Id: 45998669905920
+    m_Localized: Nombre de la Sala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46255021572096
+    m_Localized: Crear Sala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46334218420224
+    m_Localized: Unirse a Sala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46503487946752
+    m_Localized: Introduce Nombre del Jugador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46653161684992
+    m_Localized: Introduce Nombre de la Sala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48846115782656
+    m_Localized: Comenzar
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -1,0 +1,318 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4340417c92784114a8225f4bab72b03a, type: 3}
+  m_Name: TriviaQuestionSetEsp
+  m_EditorClassIdentifier: 
+  _questionCSV: {fileID: 4900000, guid: 5c5c657eef4ffcf43b1f87f9364ed1d1, type: 3}
+  _questions:
+  - question: "\xBFCu\xE1l es la capital de Francia?"
+    correctAnswer: "Par\xEDs"
+    decoyAnswers:
+    - "Berl\xEDn"
+    - Roma
+    - Madrid
+  - question: "\xBFEn qu\xE9 a\xF1o termin\xF3 la Segunda Guerra Mundial?"
+    correctAnswer: 1945
+    decoyAnswers:
+    - 1943
+    - 1947
+    - 1950
+  - question: "\xBFQui\xE9n escribi\xF3 la obra \"Romeo y Julieta\"?"
+    correctAnswer: William Shakespeare
+    decoyAnswers:
+    - Charles Dickens
+    - Jane Austen
+    - Mark Twain
+  - question: "\xBFCu\xE1l es el planeta m\xE1s grande de nuestro sistema solar?"
+    correctAnswer: "J\xFApiter"
+    decoyAnswers:
+    - Venus
+    - Marte
+    - Saturno
+  - question: "\xBFCu\xE1l es el s\xEDmbolo qu\xEDmico del oro?"
+    correctAnswer: Au
+    decoyAnswers:
+    - Ag
+    - Fe
+    - Hg
+  - question: "\xBFQu\xE9 famoso cient\xEDfico desarroll\xF3 la teor\xEDa de la relatividad?"
+    correctAnswer: Albert Einstein
+    decoyAnswers:
+    - Isaac Newton
+    - Galileo Galilei
+    - Stephen Hawking
+  - question: "\xBFEn qu\xE9 a\xF1o se hundi\xF3 el Titanic?"
+    correctAnswer: 1912
+    decoyAnswers:
+    - 1910
+    - 1915
+    - 1920
+  - question: "\xBFCu\xE1l es la capital de Jap\xF3n?"
+    correctAnswer: Tokio
+    decoyAnswers:
+    - "Se\xFAl"
+    - "Pek\xEDn"
+    - Bangkok
+  - question: "\xBFQui\xE9n pint\xF3 la Mona Lisa?"
+    correctAnswer: Leonardo da Vinci
+    decoyAnswers:
+    - Vincent van Gogh
+    - Pablo Picasso
+    - "Miguel \xC1ngel"
+  - question: "\xBFCu\xE1l es el oc\xE9ano m\xE1s grande de la Tierra?"
+    correctAnswer: "Oc\xE9ano Pac\xEDfico"
+    decoyAnswers:
+    - "Oc\xE9ano Atl\xE1ntico"
+    - "Oc\xE9ano \xCDndico"
+    - "Oc\xE9ano \xC1rtico"
+  - question: "\xBFQu\xE9 planeta es conocido como el \"Planeta Rojo\"?"
+    correctAnswer: Marte
+    decoyAnswers:
+    - Venus
+    - "J\xFApiter"
+    - Saturno
+  - question: "\xBFQui\xE9n es el autor de la saga de Harry Potter?"
+    correctAnswer: J.K. Rowling
+    decoyAnswers:
+    - J.R.R. Tolkien
+    - George R.R. Martin
+    - Suzanne Collins
+  - question: "\xBFCu\xE1l es la capital de Australia?"
+    correctAnswer: Canberra
+    decoyAnswers:
+    - "S\xEDdney"
+    - Melbourne
+    - Brisbane
+  - question: "\xBFQui\xE9n es el actual presidente de los Estados Unidos?"
+    correctAnswer: Joe Biden
+    decoyAnswers:
+    - Donald Trump
+    - Barack Obama
+    - George W. Bush
+  - question: "\xBFQu\xE9 elemento tiene el s\xEDmbolo qu\xEDmico \"O\"?"
+    correctAnswer: "Ox\xEDgeno"
+    decoyAnswers:
+    - Oro
+    - Hierro
+    - Plata
+  - question: "\xBFCu\xE1l es la moneda de China?"
+    correctAnswer: Yuan
+    decoyAnswers:
+    - Yen
+    - Won
+    - Ringgit
+  - question: "\xBFQui\xE9n escribi\xF3 la obra \"Hamlet\"?"
+    correctAnswer: William Shakespeare
+    decoyAnswers:
+    - Jane Austen
+    - Charles Dickens
+    - F. Scott Fitzgerald
+  - question: "\xBFEn qu\xE9 a\xF1o cay\xF3 el Muro de Berl\xEDn?"
+    correctAnswer: 1989
+    decoyAnswers:
+    - 1985
+    - 1991
+    - 1995
+  - question: "\xBFCu\xE1l es el mam\xEDfero m\xE1s grande del mundo?"
+    correctAnswer: Ballena azul
+    decoyAnswers:
+    - Elefante
+    - Jirafa
+    - Gorila
+  - question: "\xBFQui\xE9n es conocido como el \"Padre de la Computaci\xF3n\"?"
+    correctAnswer: Alan Turing
+    decoyAnswers:
+    - Bill Gates
+    - Steve Jobs
+    - Charles Babbage
+  - question: "\xBFCu\xE1l es el idioma oficial de Brasil?"
+    correctAnswer: "Portugu\xE9s"
+    decoyAnswers:
+    - "Espa\xF1ol"
+    - "Franc\xE9s"
+    - Italiano
+  - question: "\xBFQui\xE9n pint\xF3 La noche estrellada?"
+    correctAnswer: Vincent van Gogh
+    decoyAnswers:
+    - Claude Monet
+    - Pablo Picasso
+    - "Salvador Dal\xED"
+  - question: "\xBFEn qu\xE9 pa\xEDs se encuentra la Gran Barrera de Coral?"
+    correctAnswer: Australia
+    decoyAnswers:
+    - Brasil
+    - "M\xE9xico"
+    - India
+  - question: "\xBFCu\xE1l es el n\xFAmero primo m\xE1s peque\xF1o?"
+    correctAnswer: 2
+    decoyAnswers:
+    - 0
+    - 1
+    - 3
+  - question: "\xBFQu\xE9 planeta es conocido como el \"Planeta Azul\"?"
+    correctAnswer: Tierra
+    decoyAnswers:
+    - Venus
+    - Marte
+    - "J\xFApiter"
+  - question: "\xBFCu\xE1l es el s\xEDmbolo qu\xEDmico de la plata?"
+    correctAnswer: Ag
+    decoyAnswers:
+    - Si
+    - Au
+    - Fe
+  - question: "\xBFQui\xE9n escribi\xF3 la obra \"Macbeth\"?"
+    correctAnswer: William Shakespeare
+    decoyAnswers:
+    - Jane Austen
+    - Charles Dickens
+    - F. Scott Fitzgerald
+  - question: "\xBFEn qu\xE9 a\xF1o declar\xF3 su independencia Estados Unidos?"
+    correctAnswer: 1776
+    decoyAnswers:
+    - 1774
+    - 1783
+    - 1800
+  - question: "\xBFCu\xE1l es el desierto m\xE1s grande del mundo?"
+    correctAnswer: "Ant\xE1rtida"
+    decoyAnswers:
+    - Desierto del Sahara
+    - Desierto de Arabia
+    - Desierto de Gobi
+  - question: "\xBFQui\xE9n es el dios griego del mar?"
+    correctAnswer: "Poseid\xF3n"
+    decoyAnswers:
+    - Zeus
+    - Apolo
+    - Hermes
+  - question: "\xBFCu\xE1l es la capital de Canad\xE1?"
+    correctAnswer: Ottawa
+    decoyAnswers:
+    - Toronto
+    - Vancouver
+    - Montreal
+  - question: "\xBFQui\xE9n escribi\xF3 la novela \"Matar a un ruise\xF1or\"?"
+    correctAnswer: Harper Lee
+    decoyAnswers:
+    - J.R.R. Tolkien
+    - Jane Austen
+    - George Orwell
+  - question: "\xBFCu\xE1l es la ra\xEDz cuadrada de 64?"
+    correctAnswer: 8
+    decoyAnswers:
+    - 6
+    - 10
+    - 12
+  - question: "\xBFQu\xE9 planeta es conocido como el \"Lucero del Alba\" o \"Lucero
+      Vespertino\"?"
+    correctAnswer: Venus
+    decoyAnswers:
+    - Marte
+    - "J\xFApiter"
+    - Mercurio
+  - question: "\xBFCu\xE1l es el s\xEDmbolo qu\xEDmico del agua?"
+    correctAnswer: H2O
+    decoyAnswers:
+    - CO2
+    - O2
+    - N2
+  - question: "\xBFQui\xE9n pint\xF3 La \xFAltima cena?"
+    correctAnswer: Leonardo da Vinci
+    decoyAnswers:
+    - "Miguel \xC1ngel"
+    - Vincent van Gogh
+    - Pablo Picasso
+  - question: "\xBFEn qu\xE9 a\xF1o lleg\xF3 Crist\xF3bal Col\xF3n por primera vez
+      a Am\xE9rica?"
+    correctAnswer: 1492
+    decoyAnswers:
+    - 1500
+    - 1607
+    - 1776
+  - question: "\xBFCu\xE1l es el ave m\xE1s grande del mundo?"
+    correctAnswer: Avestruz
+    decoyAnswers:
+    - "\xC1guila"
+    - "Ping\xFCino"
+    - "Halc\xF3n"
+  - question: "\xBFQui\xE9n es el autor de \"El gran Gatsby\"?"
+    correctAnswer: F. Scott Fitzgerald
+    decoyAnswers:
+    - Ernest Hemingway
+    - Jane Austen
+    - George Orwell
+  - question: "\xBFCu\xE1l es la velocidad de la luz?"
+    correctAnswer: 300,000 km/s
+    decoyAnswers:
+    - 150,000 km/s
+    - 500,000 km/s
+    - 10,000 km/s
+  - question: "\xBFQu\xE9 pa\xEDs es conocido como la Tierra del Sol Naciente?"
+    correctAnswer: "Jap\xF3n"
+    decoyAnswers:
+    - China
+    - Corea del Sur
+    - Vietnam
+  - question: "\xBFCu\xE1l es la moneda del Reino Unido?"
+    correctAnswer: Libra esterlina
+    decoyAnswers:
+    - Euro
+    - "D\xF3lar"
+    - Yen
+  - question: "\xBFQui\xE9n es el vocalista principal de la banda Queen?"
+    correctAnswer: Freddie Mercury
+    decoyAnswers:
+    - John Lennon
+    - Mick Jagger
+    - David Bowie
+  - question: "\xBFEn qu\xE9 a\xF1o ocurri\xF3 el primer alunizaje?"
+    correctAnswer: 1969
+    decoyAnswers:
+    - 1961
+    - 1975
+    - 1983
+  - question: "\xBFCu\xE1l es la isla m\xE1s grande del mundo?"
+    correctAnswer: Groenlandia
+    decoyAnswers:
+    - Australia
+    - Borneo
+    - Madagascar
+  - question: "\xBFQui\xE9n pint\xF3 el techo de la Capilla Sixtina?"
+    correctAnswer: "Miguel \xC1ngel"
+    decoyAnswers:
+    - Leonardo da Vinci
+    - Rafael
+    - Donatello
+  - question: "\xBFCu\xE1l es la capital de Sud\xE1frica?"
+    correctAnswer: Pretoria
+    decoyAnswers:
+    - Nairobi
+    - Ciudad del Cabo
+    - Johannesburgo
+  - question: "\xBFQui\xE9n descubri\xF3 la penicilina?"
+    correctAnswer: Alexander Fleming
+    decoyAnswers:
+    - Marie Curie
+    - Louis Pasteur
+    - Joseph Lister
+  - question: "\xBFCu\xE1l es la luna m\xE1s grande de J\xFApiter?"
+    correctAnswer: Ganimedes
+    decoyAnswers:
+    - "\xCDo"
+    - Europa
+    - Calisto
+  - question: "\xBFQui\xE9n escribi\xF3 la novela \"1984\"?"
+    correctAnswer: George Orwell
+    decoyAnswers:
+    - Aldous Huxley
+    - Ray Bradbury
+    - H.G. Wells

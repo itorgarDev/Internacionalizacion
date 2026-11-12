@@ -10,10 +10,10 @@ public class LocaleSelector : MonoBehaviour
 
     IEnumerator Start()
     {
-        // Esperar a que el sistema de localización se inicialice correctamente
+        // Espera a que el sistema de localización se inicialice correctamente
         yield return LocalizationSettings.InitializationOperation;
 
-        // Limpiar las opciones actuales del dropdown
+        // Limpia las opciones actuales del dropdown
         dropdown.ClearOptions();
 
         // Obtener los idiomas disponibles en el proyecto
@@ -23,7 +23,7 @@ public class LocaleSelector : MonoBehaviour
 
         for (int i = 0; i < locales.Count; ++i)
         {
-            options.Add(locales[i].Identifier.CultureInfo.NativeName); // Muestra el nombre nativo del idioma (ej. Español, English)
+            options.Add(locales[i].Identifier.CultureInfo.NativeName); // Muestra el nombre nativo del idioma
 
             if (locales[i] == LocalizationSettings.SelectedLocale)
             {
@@ -34,7 +34,7 @@ public class LocaleSelector : MonoBehaviour
         dropdown.AddOptions(options);
         dropdown.value = selectedIndex;
 
-        // Escuchar cuando el usuario cambie la opción del dropdown
+        // Escucha cuando el usuario cambia la opción del dropdown
         dropdown.onValueChanged.AddListener(OnLocaleSelected);
     }
 

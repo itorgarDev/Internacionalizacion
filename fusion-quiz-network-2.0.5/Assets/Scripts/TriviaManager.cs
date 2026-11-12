@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
+using UnityEngine.ResourceManagement.AsyncOperations;
+
+[System.Serializable]
+public class LocalizedTriviaSet : LocalizedAsset<TriviaQuestionSet> { }
 
 /// <summary>
 /// Singleton network behavoir that manages the game and is managed by the shared mode master client.
@@ -11,6 +17,9 @@ public class TriviaManager : NetworkBehaviour, IStateAuthorityChanged
 {
     [Tooltip("Scriptable object that contains the trivia question.")]
     public TriviaQuestionSet triviaQuestions;
+
+    [Header("Localization Asset")]
+    public LocalizedTriviaSet localizedTriviaQuestions;
 
     [Tooltip("Container for the trivial question elements")]
     public GameObject questionElements = null;
@@ -156,10 +165,21 @@ public class TriviaManager : NetworkBehaviour, IStateAuthorityChanged
 
         FusionConnector.Instance?.SetPregameMessage(string.Empty);
 
+       
+
+        // Carga inicial del set correspondiente
+        TriviaQuestionSet initialSet = localizedTriviaQuestions.LoadAsset();
+        if (initialSet != null)
+        {
+            triviaQuestions = initialSet;
+        }
+
         OnTriviaGameStateChanged();
         UpdateCurrentQuestion();
         UpdateQuestionsAskedText();
     }
+
+  
 
     /// <summary>
     /// Shuffles the questions around.
@@ -218,7 +238,7 @@ public class TriviaManager : NetworkBehaviour, IStateAuthorityChanged
                 {
                     CurrentQuestion++;
                 }
-                
+
                 QuestionsAsked++;
 
                 timerLength = questionLength;
@@ -438,7 +458,7 @@ public class TriviaManager : NetworkBehaviour, IStateAuthorityChanged
     private void UpdateCurrentQuestion()
     {
         // If we are asking a question, we set the answers.
-        if (CurrentQuestion >= 0)
+        if (CurrentQuestion >= 0 && triviaQuestions != null)
         {
             questionElements.SetActive(true);
 
@@ -446,6 +466,7 @@ public class TriviaManager : NetworkBehaviour, IStateAuthorityChanged
 
             question.text = triviaQuestions.Questions[questionIndex].question;
 
+            
             answers[0].text = triviaQuestions.Questions[questionIndex].correctAnswer;
 
             answers[1].text = triviaQuestions.Questions[questionIndex].decoyAnswers[0];

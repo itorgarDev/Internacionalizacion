@@ -19,6 +19,30 @@ MonoBehaviour:
     m_Key: k_PlayerName
     m_Metadata:
       m_Items: []
+  - m_Id: 45998669905920
+    m_Key: k_RoomName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46255021572096
+    m_Key: k_CreateRoom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46334218420224
+    m_Key: k_JoinRoom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46503487946752
+    m_Key: k_enterPN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46653161684992
+    m_Key: k_enterRN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48846115782656
+    m_Key: k_StartGame
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
