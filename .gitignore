@@ -107,3 +107,43 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Builds
+Build/
+Builds/
+
+# Grabaciones y capturas
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Archivos comprimidos
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Logs
+*.log
+
+# Bases de datos locales
+*.db
+
+# Archivos muy grandes
+*.psd
+*.blend
+*.fbx
+*.obj
+*.wav
+*.aif
+*.aiff
+
+# CachÃ©s de Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
